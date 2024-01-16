@@ -3,20 +3,21 @@
 ## Installation:
 
 ## Usage
-
-1. Clone the project. 
-2. Inside the `perpetuus` directory.
-3. `Cargo build`
+1. Clone the `perpetuus` project. 
+2. Inside the directory.
+```sh
+cargo build
+```
 
 ## Development
-```sh
+```
 cargo watch -x run
 ```
 
 **Note:**
-Install `watch` by running the following command. 
+Add `cargo-watch` to auto build. 
 ```sh
-cargo install cargo-watch 
+cargo add cargo-watch
 ```
 <!-- LICENSE -->
 ## License Reviewed
